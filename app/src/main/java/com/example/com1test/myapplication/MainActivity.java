@@ -27,8 +27,16 @@ public class MainActivity extends AppCompatActivity {
         //Button Controller
         buttonController();
 
+        //tester add valus
+        tester();
 
     }//main methed
+
+    private void tester() {
+        myManage.addValueToSQLite(1, "user", "pass", "name");
+        myManage.addValueToSQLite(2, "food", "price", "source");
+
+    }
 
     private void buttonController() {
       loginButton.setOnClickListener(new View.OnClickListener() {

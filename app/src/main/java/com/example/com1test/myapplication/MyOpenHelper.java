@@ -16,13 +16,13 @@ public class MyOpenHelper extends SQLiteOpenHelper{
             "_id integer primary key, " +
             "User text," +
             "Password text," +
-            "Nmme text);";//การสร้างตาราง
+            "Name text);";//การสร้างตาราง
 
     private static final String create_food_table = "create table foodTABLE(" +
             "_id integer primary key, " +
             "Food text," +
             "Price text," +
-            "Sourece text);";
+            "Source text);";
 
 
     public MyOpenHelper(Context context) {
